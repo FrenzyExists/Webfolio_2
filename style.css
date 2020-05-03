@@ -1,0 +1,314 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+
+
+
+.main { 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+    background-color: #f4f4f4;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    align-items: center;
+    
+    
+    
+}
+
+nav  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #6983aa;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    align-items: baseline;
+}
+
+nav h1 {
+    margin: 0.5rem 1.75rem 0.5rem 0.75rem;
+}
+
+.head {
+    color: #f4f4f4;
+}
+
+.nav-icon {
+    color: #f4f4f4;
+    font-size: 20px;
+}
+
+.me {
+    max-width: 95%;
+    width: 20rem;
+
+    border-radius: 50%;
+    border-color: #6983aa;
+    border-width: 0.5rem;
+    border-style: double   
+}
+
+h1 {
+    font-size: 2em;
+    color: #6983aa;
+    font-family: 'Montserrat';
+}
+
+h3 {
+    /* text-align: center; */
+    font-size: 1.2em;
+    color: #6983aa;
+    font-family: 'Montserrat';
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: "Work Sans";
+    color: #37444F;
+}
+
+img {
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+}
+
+.upper {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+/* .upper p {
+    text-align: center;
+} */
+
+ol li {
+    font-family: "Work Sans";
+    color: #37444F;
+}
+
+.dot-hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #8566aa;
+    border-width: 6px;
+    width: 20%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.lst {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lst li {
+    color: #37444F;
+    display: block;
+    width: 500px;
+    font-size: 20/1.5px;
+    font-family: "Work Sans";
+    border-bottom: 1px solid lightgray;
+    /* text-align: center; */
+}
+
+.projects {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.projects li {
+    display: block;
+    width: 500px;
+    font-size: 20/1.5px;
+    font-family: "Work Sans";
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+}
+
+.projects li a {
+    text-decoration: none;
+    color: #37444F;
+
+    /* https://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste/ */
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+.projects li:hover {
+
+  font-size: 20px;
+  background-color: #8566aa;
+}
+
+.projects li:hover a {
+    color: #f4f4f4;
+}
+
+
+.lst li:last-child {
+    border: none;
+}
+
+.star {
+    color: #fcbf1e;
+}
+
+
+caption {
+    font-size: 20px;
+    font-family: "Montserrat";
+    margin-bottom: 1rem;
+    color: #281e3579;
+}
+
+table thead tr th{
+    border-bottom: 1px solid #281e3556;
+}
+thead {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #37444F;
+}
+
+
+thead tr th {
+    padding-bottom: 1rem;
+}
+.books-body {
+    font-size: 13px;
+    font-family: "Work Sans";
+    color: #37444F;
+    
+}
+
+.fa-check {
+    color: rgb(80, 151, 110);
+}
+
+.fa-times {
+    color: rgb(151, 80, 80);
+}
+
+
+.footer-keeper {
+    flex: 1 0 auto;
+}
+
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: #6983aa;
+}
+
+footer .subscribe-div .subscribe {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #f4f4f4;
+}
+
+.control-form {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+}
+
+.control-form::placeholder {
+    color: #eceff1;
+    opacity: 50%;
+}
+
+.control-form-outer {
+    font-size: 24px;
+    border-bottom: 1px solid #eceff1;
+    margin: 0.5rem;
+}
+
+
+.button {
+    border: 2px solid #46567070;
+    border-radius: 2px;
+    width: 20%;
+}
+
+/* Yes, this is part of my another web I made, shut up */
+.button input {
+    background: #52406856;
+    width: 100%;
+    border: none;
+    color: #eceff1;
+    font-family: 'Montserrat';
+    padding: 5px;
+}
+
+.button:hover {
+    background: #3c2f4d56;
+}
+
+.button::-moz-focus-inner {
+    background: #281e3556;
+}
+
+footer .contact .social-links {
+    display: flex;
+    justify-content: center;
+}
+
+footer .contact .social-links li  {
+    flex-direction: row;
+    list-style: none;
+    padding: 2rem;
+}
+
+footer .contact .social-links li a i{
+    font-size: 3.3em;
+    color: #f4f4f4;
+}
+
+footer .contact .social-links li a i:hover {
+    /* color: #c8a2f7; */
+    color: #3c2f4d56;;
+}
+
+.footer-hr {
+    margin: auto;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid #eceff1;
+}
+
+/* Should find a way to make this part simpler */
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem;
+    color: #f4f4f4;
+}
+
+.made-by-me {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem; 
+}
+
+.made-by-me p {
+    color: #f4f4f4;
+}
